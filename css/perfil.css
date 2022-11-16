@@ -1,0 +1,151 @@
+/*Perfil*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #502424,#c05454);;
+    padding: 0 10px;
+} 
+
+*:focus{
+    outline: none;
+}
+
+.cont{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.box{
+    box-sizing: border-box;
+    width: 330px;
+    height: 400px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.144),
+              0 32px 64px -48px rgba(0, 0, 0, 0.562);
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 15px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    transition: all 1s;
+    border-radius: 40px;
+    text-align: center;  
+}
+
+.imagem{
+    box-sizing: border-box;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:15px 35% ;
+    padding: 3px;
+    background-color: #111;
+    overflow: hidden;
+    transition: all 1s;
+ }
+
+.inpu {
+    display: block;
+    box-sizing: border-box;
+    color: #311b1b;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 4px;
+    width: 80%;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #311b1b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.inpu:focus {
+    border-bottom: 1px solid #311b1b;
+    border-bottom-right-radius:20px;
+    color: #311b1b;
+    transition: 0.2s ease;
+    background: #fff;
+    border-top: none;
+}
+    
+.btn{
+    border:1px solid #311b1b;
+    background-color: #311b1b;
+    color:#fff;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    left:0;
+    margin:0;
+    transition: all .3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #743a3a;
+}
+
+input[type="file"]{
+    display:none;
+}
+
+label{
+    box-sizing: border-box;
+    width:40px;
+    height:20px;
+    background-color: #311b1b;
+    color:#fff;
+    padding:3px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+label:hover{
+    background-color: #743a3a;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+  .box{
+    width: 250px;
+    height: 450px;
+  }
+
+  .imagem{
+    width:80px;
+    height:80px;
+ }
+
+ .botao{
+    inline-size: 50%;
+ }
+
+ .btn{
+    height: 30px;
+    width: 80px;
+ }
+}
