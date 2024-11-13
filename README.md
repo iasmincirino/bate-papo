@@ -15,5 +15,3 @@ Link: https://chatias.000webhostapp.com/chat/
 </div>
 
 #
-
-![chat (2)](https://user-images.githubusercontent.com/99847209/202174214-f16e8eaf-8578-4f75-815b-aab2037a4985.png)
